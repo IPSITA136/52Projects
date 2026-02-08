@@ -1,0 +1,124 @@
+body {
+    background-color: #565656;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    background-color: #fff;
+    height: 500px;
+    width: 650px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.firstcircle {
+    background-color: #00399b;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondcircle {
+    background-color: #fff;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;   
+    align-items: center; 
+    justify-content: center;
+}
+
+.display {
+    font-size: 40px;
+    font-family: monospace;
+    color: #5e95f4;
+    font-weight: bold;
+}
+.controls{
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.startbtn,
+.stopbtn,
+.resetbtn {
+  padding: 8px 10px ;      
+  border-radius: 8px;   
+  font-size: 15px;
+  font-family: monospace;  
+  cursor: pointer;
+  border: none;
+  outline: none;             
+}
+.startbtn {
+  background-color: #12b712;
+  color: white;             
+}
+.stopbtn {
+  background-color: #f20000;
+  color: white;              
+}
+.resetbtn {
+  background-color: #2fcaed; 
+  color: white;
+}
+.startbtn:hover{
+  background-color: #0d890de0;
+  color: white;    
+  transition: ease;        
+}
+.stopbtn:hover {
+  background-color: #ad0a0a;
+  color: white;     
+  transition: ease;          
+}
+.resetbtn:hover {
+  background-color: #1a96b2;
+  color: #fff;   
+  transition: ease;            
+}
+.settime {
+  display: flex;
+  justify-content: center;  
+  gap: 15px;
+}
+.settime input {
+  width: 80px;
+  padding: 6.5px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 16px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #5e95f4;
+  outline: none;
+  border: none;
+}
+.settime input:focus {
+    border-color: #00399b;
+}
+.setbtn {
+  margin-top: 15px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-family: monospace;
+  font-weight: bold;
+  background-color: #1b67e9;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
